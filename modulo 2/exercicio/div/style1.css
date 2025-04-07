@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+.hamburguer{
+    display: inline-block;
+    margin: 15px;
+    margin-top: 400px;
+
+}
+
+img{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.47);
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.cortado{
+    display: none;
+    position: fixed;
+}
+
+.cortado:hover > .hamburguer{
+    display: block;
+}

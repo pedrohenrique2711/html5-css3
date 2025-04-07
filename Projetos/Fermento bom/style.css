@@ -1,0 +1,13 @@
+
+         body {
+            background-image: linear-gradient(to left, #ffc140 0, #f8c73c 5%, #eacd3a 10%, #dad23c 15%, #cad642 20%, #b9db4a 25%, #a6de54 30%,
+            #92e260 35%, #7ce46d 40%, #62e77c 45%, #3ee98b 50%, #00eb9b 55%, #00ecac 60%, #00edbd 65%, #00eece 70%, #00eedf 75%,
+            #00eef0 80%, #00eeff 85%, #00edff 90%, #00ecff 95%, #00eaff 100%);
+        }
+
+
+
+        a{
+            color: black;
+            text-decoration: none;
+        }

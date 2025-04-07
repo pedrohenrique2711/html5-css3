@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+#caixa1{
+    display: inline-block;
+    background-color: rgb(112, 110, 110);
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    border: solid;
+    border-color: black;
+    margin: 50px;
+    margin-top: 400px;
+}
+
+#caixa2{
+    
+    display: inline-block;
+    background-color: rgb(112, 110, 110);
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    border: solid;
+    border-color: black;
+    margin: 50px;
+}
+
+#caixa3{
+    
+    display: inline-block;
+    background-color: rgb(112, 110, 110);
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    border: solid;
+    border-color: black;
+    margin: 50px;
+}
+
+#caixa1 > #um{
+    display: none;
+}
+
+#caixa1:hover > #um{
+    position: fixed;
+    display: block;
+    background-color: #ff0505;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    border: solid;
+    border-color: black;
+}
+
+#caixa2 > #dois{
+    display: none;
+}
+
+#caixa2:hover > #dois{
+    position: fixed;
+    display: block;
+    background-color: #ff0505;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    border: solid;
+    border-color: black;
+}
+
+#caixa3 > #tres{
+    display: none;
+}
+
+#caixa3:hover > #tres{
+    position: fixed;
+    display: block;
+    background-color: #ff0505;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    color: aqua;
+    border: solid;
+    border-color: black;
+}
+.hamburguer{
+    height: 200px;
+    width: 200px;
+}
