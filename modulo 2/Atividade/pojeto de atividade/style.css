@@ -14,7 +14,7 @@ body{
 /* estilos do titulo */
 #titulo{
     background: linear-gradient( to bottom, #64f393, #2f2f2f);
-    height: 200px;
+    height: 170px;
     padding: 20px;
     color: white;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.37);
