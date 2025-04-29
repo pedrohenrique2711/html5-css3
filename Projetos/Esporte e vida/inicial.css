@@ -6,5 +6,11 @@
 }
 
 #inicio{
-    background-image: url(imagens/pilotos/carro\ redbull.png);
+    margin: 0px;
+    background-image: url(carro\ redbull.jpg);
+    background-position: center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
 }
