@@ -5,12 +5,18 @@
     src: url(fonts/Formula\ 1.ttf);
 }
 
-#inicio{
+body{
     margin: 0px;
-    background-image: url(carro\ redbull.jpg);
+    background-image: url(imagens/carro\ redbull.jpg);
     background-position: center center;
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: scroll;
+}
 
+#inicio > h1{
+
+    color: white;
+    font-size: 6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
