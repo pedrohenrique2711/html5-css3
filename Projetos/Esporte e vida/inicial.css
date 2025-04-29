@@ -6,17 +6,45 @@
 }
 
 body{
+    background-color: black;
     margin: 0px;
     background-image: url(imagens/carro\ redbull.jpg);
-    background-position: center center;
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-size: cover;
+
 }
 
 #inicio > h1{
+    margin: 0;
+    color: rgba(255, 0, 0, 0.882);
+    font-size: 150px;
+    font-family: Formula1;
+    margin-top: 100px;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 20px;
+}
 
-    color: white;
-    font-size: 6em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#inicio > h2{
+    margin: 0;
+    color: rgba(255, 0, 0, 0.882);
+    font-size: 70px;
+    font-family: Formula1;
+    margin-top: 0px;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#inicio > p{
+
+    margin: 0;
+    color: rgba(255, 255, 255, 0.882);
+    font-size: 100px;
+    margin-top: 220px;
+    margin-left: 200px;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 20px;
 }
