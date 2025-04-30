@@ -4,15 +4,20 @@
     font-family: formula1;
     src: url(fonts/Formula\ 1.ttf);
 }
+@font-face {
+    font-family: Bebas;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
 
+
+/*PARTE INICIAL DO SITE*/
 body{
     background-color: black;
     margin: 0px;
     background-image: url(imagens/carro\ redbull.jpg);
-    height: 90vh;
+    height: 92vh;
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 100% 100%;
 }
 
 #inicio > h1{
@@ -24,6 +29,7 @@ body{
     padding-top: 0;
     padding-left: 30px;
     padding-right: 20px;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.632);
 }
 
 #inicio > h2{
@@ -35,16 +41,50 @@ body{
     padding-top: 0;
     padding-left: 30px;
     padding-right: 20px;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.632);
 }
 
 #inicio > p{
-
     margin: 0;
-    color: rgba(255, 255, 255, 0.882);
-    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-align: justify;
     margin-top: 220px;
     margin-left: 200px;
     padding-top: 0;
     padding-left: 30px;
     padding-right: 20px;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
+
+/*PARTE INICIAL DO SITE*/
+#conteudo1{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    margin-top: 150px;
+    background-image: url(imagens/edit\ mercedes\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 50px;
+}
+
+#conteudo1 > h1{
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+    padding-left: 30px;
+    font-family: Bebas;
+    font-size: 5em;
+    text-shadow: 5px 5px 5px rgba(92, 214, 239, 0.486);
+}
+
+#conteudo1 > p{
+    position: absolute;
+    margin-top: 340px;
+    color: white;
+    padding: 30px;
+    font-family: Bebas;
+    font-size: 1em;
+}
+
+
