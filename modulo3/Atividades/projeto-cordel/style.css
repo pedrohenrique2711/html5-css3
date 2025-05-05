@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#titulo{ 
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 100vw;
+
+}
+
+#titulo > h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 6em;
+    margin: 0;
+}
+
+#titulo > p{
+    text-align: center;
+}
+
+p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#estrofe1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+}
+
+#estrofe1 > p{
+    margin: 0;
+    font-size: 3em;
+}
