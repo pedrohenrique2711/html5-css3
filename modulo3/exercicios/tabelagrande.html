@@ -19,10 +19,34 @@
             border-collapse: collapse;
             width: 30%;
             margin: auto;
+            position: relative;
+        }
+        caption{
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            font-size: 24px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
         thead{
             background-color: gray;
             font-weight: bold;
+        }
+        th{
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: #d3d3d3a5;
+        }
+        thead > tr > th{
+            position: sticky;
+            background-color: rgb(0, 0, 0);
+            top: -1px;
+            color: white;
         }
         td {
             border: 1px solid #000;
@@ -41,146 +65,150 @@
 <h1>Estados do Brasil em 2025</h1>
 
 <table>
+    <caption>ESTUDOS DE ESTADOS E POPULAÇÃO</caption>
     <thead>
         <tr>
-            <td>Estados</td>
-            <td>População</td>
+            <th>Estados</th>
+            <th>População</th>
         </tr>
     </thead>
-    <tr>
+    <tbody>
+      <tr>
         <td>Acre (AC)</td>
         <td>906.876</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Alagoas (AL)</td>
         <td>3.351.543</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Amapá (AP)</td>
         <td>877.613</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Amazonas (AM)</td>
         <td>4.269.995</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Bahia (BA)</td>
         <td>14.985.284</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Ceará (CE)</td>
         <td>9.240.580</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Distrito Federal (DF)</td>
         <td>3.094.325</td>
-    </tr>
+      </tr>
        
-    <tr>
+      <tr>
         <td>Espírito Santo (ES)</td>
         <td>4.108.508</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Goiás (GO)</td>
         <td>7.496.935</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Maranhão (MA)</td>
         <td>7.338.282</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Mato Grosso (MT)</td>
         <td>3.784.239</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Mato Grosso do Sul (MS)</td>
         <td>2.833.742</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Minas Gerais (MG)</td>
         <td>21.411.923</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Pará (PA)</td>
         <td>9.118.836</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Paraíba (PB)</td>
         <td>4.039.277</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Paraná (PR)</td>
         <td>11.835.379</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Pernambuco (PE)</td>
         <td>9.674.793</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Piauí (PI)</td>
         <td>3.289.290</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Rio de Janeiro (RJ)</td>
         <td>16.054.524</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Rio Grande do Norte (RN)</td>
         <td>3.534.165</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Rio Grande do Sul (RS)</td>
         <td>11.466.630</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Rondônia (RO)</td>
         <td>1.815.278</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Roraima (RR)</td>
         <td>652.713</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Santa Catarina (SC)</td>
         <td>7.762.154</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>São Paulo (SP)</td>
         <td>46.649.132</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Sergipe (SE)</td>
         <td>2.338.474</td>
-    </tr>
+      </tr>
         
-    <tr>
+      <tr>
         <td>Tocantins (TO)</td>
         <td>1.607.363</td>
-    </tr>
+      </tr> 
+    </tbody>
+    
 
     <tfoot>
         <tr>
