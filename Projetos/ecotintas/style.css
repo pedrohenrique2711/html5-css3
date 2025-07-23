@@ -1,0 +1,856 @@
+@charset "UTF-8";
+
+/*configuração geral*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: normal;
+}
+/*final da configuração geral*/
+
+
+/*configuração da parte inicial "ECOTINTAS"*/
+/*celular*/
+ @media (min-width: 320px) and (max-width: 767.98px){
+    #inicio{
+    background-color: rgb(128, 49, 42);
+    background-image: url(imagens/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0;
+}
+}
+
+/*celular e alguns tablets*/
+ @media (min-width: 768px) and (max-width: 991.98px){
+    #inicio{
+    background-color: rgb(128, 49, 42);
+    background-image: url(imagens/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+    #inicio{
+    background-color: rgb(128, 49, 42);
+    background-image: url(imagens/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 116vh;
+    width: 100%;
+    margin-bottom: 0;
+}
+}
+
+/* notebook*/
+ @media (min-width: 1440px){
+    #inicio{
+    background-color: rgb(128, 49, 42);
+    background-image: url(imagens/splash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0;
+}
+}
+
+#inicio > h1{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 14vw;
+    font-family: "Nerko One", cursive;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* final da configuração da parte incial "ECOTINTAS"*/
+
+
+
+
+
+/* configuração da parte "Quem somos?*/
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#quem-somos{
+    height: 100vh;
+    width: 30%;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(imagens/image\ 18.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#quem-somos{
+    height: 100vh;
+    width: 35%;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(imagens/image\ 18.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+    #quem-somos{
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(imagens/image\ 18.png);
+    background-repeat: no-repeat;
+}
+}
+
+
+/* notebook*/
+@media (min-width:  1440px){
+#quem-somos{
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(imagens/image\ 18.png);
+    background-repeat: no-repeat;
+} 
+}
+
+
+
+
+
+
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#quem-somos > div{
+    position: relative;
+    text-align: justify;
+    height: 75%;
+    width: 70vw;
+    padding-left: 20px;
+
+    top: 45%;
+    left: 210%;
+    transform: translate(-50%, -50%);
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#quem-somos > div{
+    position: relative;
+    text-align: justify;
+    height: 75%;
+    width: 180%;
+    padding: 40px;
+    padding-top: 20px;
+    top: 45%;
+    left: 190%;
+    transform: translate(-50%, -50%);
+}
+}
+
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#quem-somos > div{
+    position: relative;
+    text-align: justify;
+    height: 75%;
+    width: 55%;
+    padding: 40px;
+    padding-top: 20px;
+    top: 45%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#quem-somos > div{
+    position: relative;
+    text-align: justify;
+    height: 75%;
+    width: 60%;
+    padding: 40px;
+    padding-top: 20px;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+}
+
+
+
+
+
+
+
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#quem-somos > div > h1{
+    text-align: left;
+    font-size: 40px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+}
+
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#quem-somos > div > h1{
+    text-align: left;
+    font-size: 70px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#quem-somos > div > h1{
+    text-align: left;
+    font-size: 70px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#quem-somos > div > h1{
+    text-align: left;
+    font-size: 90px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+}
+
+
+
+
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#quem-somos > div > p{
+    text-align: justify;
+    font-size: 10px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#quem-somos > div > p{
+    text-align: justify;
+    font-size: 16px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#quem-somos > div > p{
+    text-align: justify;
+    font-size: 20px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#quem-somos > div > p{
+    text-align: justify;
+    font-size: 20px;
+}
+}
+
+/* final da configuração da parte "Quem somos?"*/
+
+
+
+
+/*configuração da parte do "Projeto"*/
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#projeto{
+    background-image: url(imagens/image\ 15.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#projeto{
+    background-image: url(imagens/image\ 15.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+}
+
+/* notebook*/
+@media (min-width: 1280px){
+#projeto{
+    background-image: url(imagens/image\ 15.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+}
+
+
+
+
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#projeto > div{
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.227);
+    color: rgb(255, 255, 255);
+    height: 80%;
+    width: 90%;
+    padding: 20px;
+    padding-top: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#projeto > div{
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.227);
+    color: rgb(255, 255, 255);
+    height: 75%;
+    width: 80%;
+    padding: 40px;
+    padding-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+    #projeto > div{
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.227);
+    color: rgb(255, 255, 255);
+    height: 85%;
+    width: 60%;
+    padding: 40px;
+    padding-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#projeto > div{
+    position: relative;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.227);
+    color: rgb(255, 255, 255);
+    height: 85%;
+    width: 60%;
+    padding: 40px;
+    padding-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+
+
+
+
+
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#projeto > div > p{
+    font-size: 11px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#projeto > div > p{
+    font-size: 17px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#projeto > div > p{
+    font-size: 18px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#projeto > div > p{
+    font-size: 18px;
+}
+}
+
+#projeto > div > h1{
+    text-align: center;
+    padding: 25px;
+    font-size: 3em;
+}
+
+/*final da configuração da parte do "projeto"*/
+
+
+
+
+/*configuração da parte de "etapas"*/
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#etapas{
+    background-color: rgb(171, 50, 41);
+    height: 230vh;
+    width: 100%;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#etapas{
+    background-color: rgb(171, 50, 41);
+    height: 160vh;
+    width: 100%;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#etapas{
+    background-color: rgb(171, 50, 41);
+    height: 230vh;
+    width: 100%;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#etapas{
+    background-color: rgb(171, 50, 41);
+    height: 230vh;
+    width: 100%;
+}
+}
+
+#etapas > h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to top, #fa570c, #ff9b5d);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#etapas > #linha-do-meio{
+    position: relative;
+    background: linear-gradient(#fa570c, #f77a2d);
+    height: 180vh;
+    width: 4px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+    #etapas > #linha-do-meio{
+    position: relative;
+    background: linear-gradient(#fa570c, #f77a2d);
+    height: 130vh;
+    width: 4px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#etapas > #linha-do-meio{
+    position: relative;
+    background: linear-gradient(#fa570c, #f77a2d);
+    height: 180vh;
+    width: 4px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#etapas > #linha-do-meio{
+    position: relative;
+    background: linear-gradient(#fa570c, #f77a2d);
+    height: 180vh;
+    width: 4px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+}
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#etapas > #caixa1{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1200px;
+    right: -780px;
+    border-radius: 30px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#etapas > #caixa1{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 350px;
+    top: -73%;
+    right: -52%;
+    border-radius: 30px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#etapas > #caixa1{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1200px;
+    right: -660px;
+    border-radius: 30px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#etapas > #caixa1{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1200px;
+    right: -780px;
+    border-radius: 30px;
+}
+}
+
+
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#etapas > #caixa2{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1140px;
+    right: -240px;
+    border-radius: 30px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#etapas > #caixa2{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 350px;
+    top: -70%;
+    right:-2%;  
+    border-radius: 30px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#etapas > #caixa2{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1140px;
+    right: -120px;
+    border-radius: 30px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#etapas > #caixa2{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1140px;
+    right: -240px;
+    border-radius: 30px;
+}
+}
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#etapas > #caixa3{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1080px;
+    right: -780px;
+    border-radius: 30px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#etapas > #caixa3{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 350px;
+    top: -67%;
+    right: -52%;
+    border-radius: 30px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#etapas > #caixa3{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1080px;
+    right: -660px;
+    border-radius: 30px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#etapas > #caixa3{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1080px;
+    right: -780px;
+    border-radius: 30px;
+}
+}
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#etapas > #caixa4{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1020px;
+    right: -240px;
+    border-radius: 30px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#etapas > #caixa4{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 350px;
+    top: -64%;
+    left: 2vh;
+    border-radius: 30px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#etapas > #caixa4{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1020px;
+    right: -120px;
+    border-radius: 30px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#etapas > #caixa4{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -1020px;
+    right: -240px;
+    border-radius: 30px;
+}
+}
+
+/*celular*/
+@media (min-width: 320px) and (max-width: 767.98px){
+#etapas > #caixa5{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -960px;
+    right: -780px;
+    border-radius: 30px;
+}
+}
+
+/*celular e alguns tablets*/
+@media (min-width: 768px) and (max-width: 991.98px){
+#etapas > #caixa5{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 350px;
+    top: -61%;
+    right: -52%;
+    border-radius: 30px;
+}
+}
+
+/* notebook menores*/
+@media (min-width: 1280px) and (max-width: 1439.99px){
+#etapas > #caixa5{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -960px;
+    right: -660px;
+    border-radius: 30px;
+}
+}
+
+/* notebook*/
+@media (min-width: 1440px){
+#etapas > #caixa5{
+    position: relative;
+    background: linear-gradient(to right, #fa570c, #fa570c, #f77a2d);
+    height: 200px;
+    width: 500px;
+    top: -960px;
+    right: -780px;
+    border-radius: 30px;
+}
+}
+
+#etapas > #caixa1 > p{
+    padding: 15px;
+    text-align: justify;
+}
+
+#etapas > #caixa2 > p{
+    padding: 15px;
+    text-align: justify;
+}
+
+#etapas > #caixa3 > p{
+    padding: 15px;
+    text-align: justify;
+}
+
+#etapas > #caixa4 > p{
+    padding: 15px;
+    text-align: justify;
+}
+
+#etapas > #caixa5 > p{
+    padding: 15px;
+    text-align: justify;
+}
+
+#rodape{
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+}
